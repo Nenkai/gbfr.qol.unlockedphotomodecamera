@@ -1,0 +1,58 @@
+{
+  "ModId": "gbfr.qol.unlockedphotomodecamera",
+  "ModName": "Free Camera/Noclip for Photo Mode",
+  "ModAuthor": "Nenkai",
+  "ModVersion": "1.0.1",
+  "ModDescription": "Free Camera/Noclip for photo mode. Camera speed can be controlled in 'Configure'.",
+  "ModDll": "gbfr.qol.unlockedphotomodecamera.dll",
+  "ModIcon": "Preview.jpg",
+  "ModR2RManagedDll32": "x86/gbfr.qol.unlockedphotomodecamera.dll",
+  "ModR2RManagedDll64": "x64/gbfr.qol.unlockedphotomodecamera.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": false,
+  "HasExports": false,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "gbfr.qol.unlockedphotomodecamera.ReleaseMetadata.json",
+  "PluginData": {
+    "GitHubRelease": {
+      "UserName": "Nenkai",
+      "RepositoryName": "gbfr.qol.unlockedphotomodecamera",
+      "UseReleaseTag": true,
+      "AssetFileName": "Mod.zip"
+    },
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Memory.SigScan",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        },
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "Reloaded.Memory.SigScan.ReloadedII",
+    "reloaded.sharedlib.hooks"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "granblue_fantasy_relink.exe"
+  ],
+  "ProjectUrl": ""
+}
